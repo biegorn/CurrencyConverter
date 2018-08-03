@@ -1,3 +1,13 @@
+/*import React from 'react';
+import { View } from 'react-native';
+
+import styles from './styles';
+
+const Header = () => <View style={styles.container} />;
+
+export default Header;
+*/
+
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Image, TouchableOpacity } from 'react-native';
@@ -17,3 +27,4 @@ Header.propTypes = {
 };
 
 export default Header;
+
